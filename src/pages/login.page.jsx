@@ -23,6 +23,8 @@ const LoginPage = () => {
 
         // ** maybe we need it later
         const resJson = response.json()
+        console.log(resJson)
+
 
         setLoading(false)
         history.push('/verify')
